@@ -1,0 +1,11 @@
+{
+  "activeViewId" : "1e616959-4652-48b8-8eec-45a45ca573ed",
+  "appPageId" : "aedcf022-61ac-48c9-a640-7a4635e6e9e0",
+  "configurationTags" : [ ],
+  "id" : "183db3a7-7ca0-4243-9d68-7d90a28e1cdc",
+  "label" : "Cache poc",
+  "pageAccess" : "Public",
+  "routeType" : "custom-cache-poc",
+  "type" : "route",
+  "urlPrefix" : "cache-poc"
+}

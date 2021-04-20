@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LightningMessageChannel xmlns="http://soap.sforce.com/2006/04/metadata">
+    <masterLabel>CacheManager</masterLabel>
+    <isExposed>true</isExposed>
+    <description>Message channel used by CacheManager and subscribed LWCs</description>
+    <lightningMessageFields>
+        <fieldName>origin</fieldName>
+        <description>Required. API Name of the LWC from which the message originates.</description>
+    </lightningMessageFields>
+    <lightningMessageFields>
+        <fieldName>partition</fieldName>
+        <description>Required. The functional partition which got affected.</description>
+    </lightningMessageFields>
+    <lightningMessageFields>
+        <fieldName>recordIds</fieldName>
+        <description>Optional. Comma-separated list of recordIds for records which changed.</description>
+    </lightningMessageFields>
+</LightningMessageChannel>

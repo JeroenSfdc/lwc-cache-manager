@@ -1,0 +1,64 @@
+{
+  "appPageId" : "aedcf022-61ac-48c9-a640-7a4635e6e9e0",
+  "componentName" : "siteforce:sldsOneColLayout",
+  "id" : "56121581-d2d0-411f-aaaa-06fabc92093f",
+  "label" : "Case Detail",
+  "regions" : [ {
+    "id" : "074bca03-4825-44f4-bab6-cbcc265b2d6c",
+    "regionName" : "header",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "recordId" : "{!recordId}"
+      },
+      "componentName" : "forceCommunity:recordHeadline",
+      "id" : "36710d63-e83f-45bc-92e3-7f764b9a6052",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    }, {
+      "componentAttributes" : {
+        "detailsTabLabel" : "Details",
+        "discussionsTabLabel" : "Feed",
+        "recordId" : "{!recordId}",
+        "relatedTabLabel" : "Related",
+        "tab1Type" : "details",
+        "tab2Type" : "related",
+        "tab3Type" : "chatter",
+        "tab4Type" : "none",
+        "timelineTabLabel" : "Activity"
+      },
+      "componentName" : "forceCommunity:recordHomeTabs",
+      "id" : "1ab9caa5-c42d-4f7d-a706-c2973668d69c",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "cb0f2f45-e8d3-4fb9-8c0a-12292c451527",
+    "regionName" : "content",
+    "type" : "region"
+  }, {
+    "id" : "94b44616-224b-4839-b753-a4e2d1b3ad52",
+    "regionName" : "footer",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "description" : "",
+        "metaTags" : "",
+        "title" : "{!Record._Object}: {!Record._Title}"
+      },
+      "componentName" : "forceCommunity:seoAssistant",
+      "id" : "50fc6342-42df-4d6f-8b06-6c6f8235a91e",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "4b69f5c3-e5f2-4c88-8046-d8c39ad9b260",
+    "regionName" : "sfdcHiddenRegion",
+    "type" : "region"
+  } ],
+  "themeLayoutType" : "Inner",
+  "type" : "view",
+  "viewType" : "detail-500"
+}

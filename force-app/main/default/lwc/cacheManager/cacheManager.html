@@ -1,0 +1,32 @@
+<template>
+    <lightning-card if:true={_showCard} title="Cache Manager Service Component" icon-name="standard:dataset">
+         <p>Debug Mode enabled</p>
+
+         <lightning-button label="Update" variant="brand" onclick={_handleUpdate}></lightning-button>
+
+            <div if:true={_cachePartitions}>
+                <template for:each={_cachePartitions} for:item="p">
+                    <li key={p.name}>
+                        partition: {p.name}
+                        interval: {p.interval}
+                        stale: {p.stale}
+                        age: {p.age}
+                    </li>
+                </template>
+            </div>
+
+            <div if:true={_cachePartitionSubscribers}>
+                <template for:each={_cachePartitionSubscribers} for:item="s">
+                    <li key={s.subscriber}>
+                        subscriber: {s.name}
+                        partition: {s.partition}
+                    </li>
+                </template>
+            </div>
+
+            <template if:true={_error}>
+                <c-error-panel errors={_error}></c-error-panel>
+            </template>
+
+        </lightning-card>
+</template>

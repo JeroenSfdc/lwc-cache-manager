@@ -1,0 +1,85 @@
+{
+  "appPageId" : "aedcf022-61ac-48c9-a640-7a4635e6e9e0",
+  "componentName" : "siteforce:sldsThreeCol444Layout",
+  "id" : "1e616959-4652-48b8-8eec-45a45ca573ed",
+  "label" : "Cache poc",
+  "regions" : [ {
+    "id" : "90b69825-fede-4632-b327-603de86bea01",
+    "regionName" : "header",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "debug" : true
+      },
+      "componentName" : "c:cacheManager",
+      "id" : "142880cb-0a81-44b4-a7cc-d39f5c496e9c",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "c704e0e1-1dd4-461a-9eec-0e27e66281fd",
+    "regionName" : "content",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : { },
+      "componentName" : "c:recordFormStaticContact",
+      "id" : "de1441e9-d4a0-4295-80bd-0e49a26bcf91",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    }, {
+      "componentAttributes" : { },
+      "componentName" : "c:apexUpdate",
+      "id" : "6c32fc1c-6674-4f35-9602-7d2e627bc02b",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "e6c8977c-c14c-4e90-8260-ff97c93bee53",
+    "regionName" : "sidebar",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : { },
+      "componentName" : "c:wireListView",
+      "id" : "db81d12f-8987-466a-ad9a-7cbe3d4b9335",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    }, {
+      "componentAttributes" : { },
+      "componentName" : "c:apexImperativeMethod",
+      "id" : "4ad80c1a-f8c4-40ed-9efe-ee0b3437b856",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "a6e96395-235f-48b6-88bc-26a1f0094d31",
+    "regionName" : "sidebarAlt",
+    "type" : "region"
+  }, {
+    "id" : "dfa7738f-2736-4d3d-8fd3-b008969ea659",
+    "regionName" : "footer",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "description" : "",
+        "metaTags" : "",
+        "title" : "Cache poc"
+      },
+      "componentName" : "forceCommunity:seoAssistant",
+      "id" : "34b8bc6a-d1fc-4855-917e-0ab0ad882f90",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "1d87a55b-5608-4d9e-b8ec-c3cc84ca348e",
+    "regionName" : "sfdcHiddenRegion",
+    "type" : "region"
+  } ],
+  "themeLayoutType" : "Inner",
+  "type" : "view",
+  "viewType" : "custom-cache-poc"
+}
